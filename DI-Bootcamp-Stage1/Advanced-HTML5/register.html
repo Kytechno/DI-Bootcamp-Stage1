@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Inscription</title>
+</head>
+<body>
+    <header>
+        <nav>
+          <ul>
+            <li><a href="./inex.html">Accueil</a></li>
+            <li><a href="./actualite.html">actualite</a></li>
+            <li><a href="#">Inscription</a></li>
+          </ul>
+        </nav>
+    </header>
+    <h2>Formulaire d'inscription</h2>
+    <form method="GET">
+        Nom: <input type="text" name="lastname"><br>
+        Prénoms: <input type="text" name="firstname"><br>
+        Email: <input type="email" name="email"><br>
+        Mot de pass: <input type="password" name="password" minLength="8"><br>
+        Date de naissance: <input type="date" name="birthday"><br>
+        Genre:<br>
+        <input type="radio" name="gender" value="Male">M<br>
+        <input type="radio" name="gender" value="Female">F<br>
+        <input type="radio" name="gender" value="Other">X<br>
+        Etablissement: <br>
+        <input type="checkbox" name="inphb"> INP-HB<br>
+        <input type="checkbox" name="esatic"> ESATIC<br>
+        <input type="checkbox" name="ensea"> ENSEA<br>
+        <input type="checkbox" name="ensea"> CESAG<br>
+        Pays: <br>
+        <select name="pays">
+            <option value="Côte d'Ivoire" >Côte d'Ivoire</option>
+            <option value="Sénégal">Sénégal</option>
+        </select><br>
+        Ville: <br>
+        <select name="ville">
+            <option value="Abidjan" >Abidjan</option>
+            <option value="Yamoussoukro">Yamoussoukro</option>
+            <option value="Dakar">Dakar</option>
+        </select><br>
+        <input type="submit" value="Enregister">
+        <input type="reset" value="Reinitialiser">
+    </form>
+</body>
+</html>
